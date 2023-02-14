@@ -30,16 +30,10 @@ td {
     font-size: 90%;
 }
 
-a:link,
-a:visited {
-    color: black;
-}
-
 a:hover,
 a:active {
     opacity: 0.6;
     cursor: pointer;
-    color: mediumblue;
 }
 
 .no-style {
@@ -73,4 +67,53 @@ hr:after {
     display: inline-block;
     height: 694px;
     margin: 0 20px;
+}
+
+.style1 a:link,
+.style1 a:visited {
+    color: black;
+}
+
+.style1 li a:hover,
+.style1 li a:active {
+    color: mediumblue;
+}
+
+.style2 a:link,
+.style2 a:visited,
+.style2 {
+    color: firebrick;
+}
+
+.style2 li a:hover,
+.style2 li a:active {
+    color: navy;
+}
+
+.style3 a:link,
+.style3 a:visited {
+    color: darkred;
+}
+
+.style3 li a:hover,
+.style3 li a:active {
+    color: red;
+}
+
+.s4 {
+    background-color: #efe7d6;
+}
+
+.style4 a:link,
+.style4 a:visited {
+    color: saddlebrown;
+}
+
+.style4 li a:hover,
+.style4 li a:active {
+    color: red;
+}
+
+.s4 {
+    background-color: #fffaff;
 }
